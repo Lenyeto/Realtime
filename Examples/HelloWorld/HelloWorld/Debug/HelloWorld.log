@@ -1,9 +1,1 @@
-﻿  StudentRecord.cpp
-  HelloWorld.cpp
-z:\profiledata\documents\github\realtime\examples\helloworld\helloworld\helloworld.cpp(16): warning C4101: 'balance': unreferenced local variable
-z:\profiledata\documents\github\realtime\examples\helloworld\helloworld\helloworld.cpp(17): warning C4101: 'confirm': unreferenced local variable
-  Generating Code...
-StudentRecord.obj : error LNK2005: "public: __thiscall SchoolData::StudentRecord::StudentRecord(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,unsigned int,float)" (??0StudentRecord@SchoolData@@QAE@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@IM@Z) already defined in HelloWorld.obj
-StudentRecord.obj : error LNK2005: "public: __thiscall SchoolData::StudentRecord::~StudentRecord(void)" (??1StudentRecord@SchoolData@@QAE@XZ) already defined in HelloWorld.obj
-StudentRecord.obj : error LNK2005: "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall SchoolData::StudentRecord::getName(void)" (?getName@StudentRecord@SchoolData@@QAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ) already defined in HelloWorld.obj
-Z:\profiledata\Documents\GitHub\Realtime\Examples\HelloWorld\Debug\HelloWorld.exe : fatal error LNK1169: one or more multiply defined symbols found
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Platforms\Win32\PlatformToolsets\v140\Toolset.targets(34,5): error MSB8036: The Windows SDK version 8.1 was not found. Install the required version of Windows SDK or change the SDK version in the project property pages or by right-clicking the solution and selecting "Retarget solution".
