@@ -1,0 +1,16 @@
+Base path: C:/Program Files/Unity/Editor/Data
+Cmd: getPlatforms
+Cmd: disassembleShader
+  api=15 insize=618 outsize=1412 ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=5199 outsize=2128 kw=PIXELSNAP_ON pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: disassembleShader
+  api=12 insize=2128 outsize=3695 ok=1
+Cmd: compileSnippet
+  api=8 type=0 insize=1839 outsize=1282 kw=PIXELSNAP_ON pd=UNITY_NO_LINEAR_COLORSPACE UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_MOBILE ok=1
+Cmd: disassembleShader
+  api=13 insize=1282 outsize=3102 ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1839 outsize=1362 kw=PIXELSNAP_ON pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: disassembleShader
+  api=17 insize=1362 outsize=2197 ok=1
