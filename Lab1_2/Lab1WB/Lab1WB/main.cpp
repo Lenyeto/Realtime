@@ -16,9 +16,6 @@ int main()
 	LM.setLogMask();
 	LM.log("message F", LL_DEBUG);
 
-	while (1) {
-
-	}
     return 0;
 }
 
