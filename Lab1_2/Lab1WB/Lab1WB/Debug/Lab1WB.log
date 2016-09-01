@@ -1,0 +1,32 @@
+﻿  stdafx.cpp
+  main.cpp
+c:\users\william\documents\github\new folder\realtime\lab1_2\lab1wb\lab1wb\logmanager.h(14): error C2011: 'ssuge::LogManager': 'class' type redefinition
+  c:\users\william\documents\github\new folder\realtime\lab1_2\lab1wb\lab1wb\logmanager.h(14): note: see declaration of 'ssuge::LogManager'
+c:\users\william\documents\github\new folder\realtime\lab1_2\lab1wb\lab1wb\logmanager.cpp(8): error C2027: use of undefined type 'ssuge::LogManager'
+  c:\users\william\documents\github\new folder\realtime\lab1_2\lab1wb\lab1wb\logmanager.h(14): note: see declaration of 'ssuge::LogManager'
+c:\users\william\documents\github\new folder\realtime\lab1_2\lab1wb\lab1wb\logmanager.cpp(8): error C2146: syntax error: missing ')' before identifier 'name'
+c:\users\william\documents\github\new folder\realtime\lab1_2\lab1wb\lab1wb\logmanager.cpp(8): error C2079: 'std::string' uses undefined class 'ssuge::LogManager'
+c:\users\william\documents\github\new folder\realtime\lab1_2\lab1wb\lab1wb\logmanager.cpp(8): error C2226: syntax error: unexpected type 'std::string'
+c:\users\william\documents\github\new folder\realtime\lab1_2\lab1wb\lab1wb\logmanager.cpp(8): error C2146: syntax error: missing ';' before identifier 'name'
+c:\users\william\documents\github\new folder\realtime\lab1_2\lab1wb\lab1wb\logmanager.cpp(8): error C2059: syntax error: ')'
+c:\users\william\documents\github\new folder\realtime\lab1_2\lab1wb\lab1wb\logmanager.cpp(8): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\william\documents\github\new folder\realtime\lab1_2\lab1wb\lab1wb\logmanager.cpp(9): error C2275: 'std::ofstream': illegal use of this type as an expression
+  c:\users\william\documents\github\new folder\realtime\lab1_2\lab1wb\lab1wb\logmanager.cpp(9): note: see declaration of 'std::ofstream'
+c:\users\william\documents\github\new folder\realtime\lab1_2\lab1wb\lab1wb\logmanager.cpp(9): error C2146: syntax error: missing ')' before identifier 'mFile'
+c:\users\william\documents\github\new folder\realtime\lab1_2\lab1wb\lab1wb\logmanager.cpp(10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\william\documents\github\new folder\realtime\lab1_2\lab1wb\lab1wb\logmanager.cpp(13): error C2653: 'LogManager': is not a class or namespace name
+c:\users\william\documents\github\new folder\realtime\lab1_2\lab1wb\lab1wb\logmanager.cpp(13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\william\documents\github\new folder\realtime\lab1_2\lab1wb\lab1wb\logmanager.cpp(14): error C2065: 'mFile': undeclared identifier
+c:\users\william\documents\github\new folder\realtime\lab1_2\lab1wb\lab1wb\logmanager.cpp(14): error C2228: left of '.close' must have class/struct/union
+  c:\users\william\documents\github\new folder\realtime\lab1_2\lab1wb\lab1wb\logmanager.cpp(14): note: type is 'unknown-type'
+c:\users\william\documents\github\new folder\realtime\lab1_2\lab1wb\lab1wb\logmanager.cpp(15): warning C4508: 'LogManager': function should return a value; 'void' return type assumed
+c:\users\william\documents\github\new folder\realtime\lab1_2\lab1wb\lab1wb\logmanager.cpp(17): error C2653: 'LogManager': is not a class or namespace name
+c:\users\william\documents\github\new folder\realtime\lab1_2\lab1wb\lab1wb\logmanager.cpp(18): error C2065: 'mLogLevel': undeclared identifier
+c:\users\william\documents\github\new folder\realtime\lab1_2\lab1wb\lab1wb\logmanager.cpp(19): error C2065: 'mFile': undeclared identifier
+c:\users\william\documents\github\new folder\realtime\lab1_2\lab1wb\lab1wb\logmanager.cpp(23): error C2653: 'LogManager': is not a class or namespace name
+c:\users\william\documents\github\new folder\realtime\lab1_2\lab1wb\lab1wb\logmanager.cpp(28): error C2059: syntax error: '}'
+c:\users\william\documents\github\new folder\realtime\lab1_2\lab1wb\lab1wb\logmanager.cpp(28): error C2143: syntax error: missing ';' before '}'
+c:\users\william\documents\github\new folder\realtime\lab1_2\lab1wb\lab1wb\main.cpp(9): error C2143: syntax error: missing ';' before '{'
+c:\users\william\documents\github\new folder\realtime\lab1_2\lab1wb\lab1wb\main.cpp(9): error C2447: '{': missing function header (old-style formal list?)
+  LogManager.cpp
+  Generating Code...

@@ -13,17 +13,17 @@
 namespace ssuge {
 
 
-class LogManager {
-public:
-	LogManager(std::string name);
-	~LogManager();
-	void log(std::string msg, unsigned int lvl);
-	void setLogMask(unsigned int lvl);
-private:
-	std::ofstream mFile;
-	unsigned int mLogLevel;
+	class LogManager {
+	public:
+		LogManager(std::string name);
+		~LogManager();
+		void log(std::string msg, unsigned int lvl);
+		void setLogMask(unsigned int lvl);
+	private:
+		std::ofstream mFile;
+		unsigned int mLogLevel;
 
-};
+	};
 
 
 }

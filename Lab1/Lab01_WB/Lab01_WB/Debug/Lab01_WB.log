@@ -1,4 +1,8 @@
-﻿  Main.cpp
+﻿  LogManager.cpp
+  Generating Code...
+  Compiling...
+  Main.cpp
+  Generating Code...
 Main.obj : error LNK2005: "public: __thiscall ssuge::LogManager::LogManager(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (??0LogManager@ssuge@@QAE@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) already defined in LogManager.obj
 Main.obj : error LNK2005: "public: __thiscall ssuge::LogManager::~LogManager(void)" (??1LogManager@ssuge@@QAE@XZ) already defined in LogManager.obj
 Main.obj : error LNK2005: "char * __cdecl ssuge::getTimeString(struct tm const *)" (?getTimeString@ssuge@@YAPADPBUtm@@@Z) already defined in LogManager.obj
