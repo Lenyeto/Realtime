@@ -14,7 +14,8 @@ int main()
 	LM.log("message D", LL_SCRIPT);
 	LM.log("message E", LL_DEBUG);
 	LM.setLogMask();
-	LM.log("message F", LL_DEBUG);
+	LM.log("message F", LL_DEBUG);
+
 	while (1) {
 
 	}

@@ -1,5 +1,5 @@
 ﻿  LogManager.cpp
-c:\users\william\documents\github\new folder\realtime\lab1_2\lab1wb\lab1wb\logmanager.cpp(25): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\william\desktop\new folder (3)\realtime\lab1_2\lab1wb\lab1wb\logmanager.cpp(25): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\time.h(505): note: see declaration of 'localtime'
-  Lab1WB.vcxproj -> C:\Users\William\Documents\GitHub\New folder\Realtime\Lab1_2\Lab1WB\Debug\Lab1WB.exe
-  Lab1WB.vcxproj -> C:\Users\William\Documents\GitHub\New folder\Realtime\Lab1_2\Lab1WB\Debug\Lab1WB.pdb (Full PDB)
+  Lab1WB.vcxproj -> C:\Users\William\Desktop\New folder (3)\Realtime\Lab1_2\Lab1WB\Debug\Lab1WB.exe
+  Lab1WB.vcxproj -> C:\Users\William\Desktop\New folder (3)\Realtime\Lab1_2\Lab1WB\Debug\Lab1WB.pdb (Full PDB)

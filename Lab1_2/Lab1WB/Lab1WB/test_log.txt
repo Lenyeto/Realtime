@@ -1,5 +1,5 @@
-[8/1/116@8:13:39]message A
-[8/1/116@8:13:39][DEBUG]message B
-[8/1/116@8:13:39]message C
-[8/1/116@8:13:39][SCRIPT]message D
-[8/1/116@8:13:39][DEBUG]message F
+[8/1/2016@9:10:3]message A
+[8/1/2016@9:10:3][DEBUG]message B
+[8/1/2016@9:10:3]message C
+[8/1/2016@9:10:3][SCRIPT]message D
+[8/1/2016@9:10:3][DEBUG]message F
