@@ -15,8 +15,8 @@ namespace ssuge {
 	public:
 		LogManager(std::string name);
 		~LogManager();
-		void log(std::string msg, unsigned int lvl);
-		void setLogMask(unsigned int lvl);
+		void log(std::string msg, unsigned int lvl = LL_NORMAL);
+		void setLogMask(unsigned int lvl = LL_ALL);
 	private:
 		std::ofstream mFile;
 		unsigned int mLogLevel;
