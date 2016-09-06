@@ -1,8 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.VR;
 
 
 public class MapController : MonoBehaviour {
+    
 
     public GameObject groundPiece;
     public GameObject TNT;
@@ -13,6 +15,7 @@ public class MapController : MonoBehaviour {
 
     // Use this for initialization
 	void Start () {
+
         tiles[0] = (GameObject) (Instantiate(groundPiece, new Vector3(this.transform.position.x, 0, this.transform.position.z), new Quaternion()));
         tiles[1] = (GameObject) (Instantiate(groundPiece, new Vector3(this.transform.position.x - 5, 0, this.transform.position.z), new Quaternion()));
         tiles[2] = (GameObject) (Instantiate(groundPiece, new Vector3(this.transform.position.x - 10, 0, this.transform.position.z), new Quaternion()));
@@ -32,11 +35,6 @@ public class MapController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	    if (Input.GetKeyDown(KeyCode.A))
-        {
-            addPiece();
-        }
-        this.transform.Translate(-0.5f, 0.0f, 0.0f);
         if (this.transform.position.x <= tiles[1].transform.position.x)
         {
             addPiece();
@@ -77,10 +75,10 @@ public class MapController : MonoBehaviour {
                 tiles[i].transform.position = new Vector3(tiles[i].transform.position.x - 5, -1, tiles[i].transform.position.z);
             }
         }
-        //if (tiles[9].transform.position.y >= 0)
-        //{
-        //    tiles[9].transform.position = tiles[9].transform.position + new Vector3(0, -0.1f, 0);
-        //}
+        if (VRDevice.isPresent)
+        {
+            GameObject.Destroy(Instantiate(tiles[0]), 10);
+        }
     }
 
     void addTNT()

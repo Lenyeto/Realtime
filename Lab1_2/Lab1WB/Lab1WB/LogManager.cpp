@@ -3,17 +3,23 @@
 #include <ctime>
 #include <string>
 
+/*! The LogManager Definitions */
 
 namespace ssuge {
+
+	/*! The LogManager Constructor */
 	LogManager::LogManager(std::string name) {
 		mFile = std::ofstream(name);
 		mLogLevel = LL_NORMAL | LL_ERROR | LL_WARNING | LL_DEBUG;
 	}
 
+	/*! The LogManager Deconstructor */
 	LogManager::~LogManager() {
 		mFile.close();
 	}
 
+
+	/*! The log function */
 	void LogManager::log(std::string msg, unsigned int lvl) {
 		
 
@@ -45,6 +51,7 @@ namespace ssuge {
 		}
 	}
 
+	/*! The setLogMask function to set what log level the log is showing */
 	void LogManager::setLogMask(unsigned int lvl) {
 		mLogLevel = lvl;
 	}

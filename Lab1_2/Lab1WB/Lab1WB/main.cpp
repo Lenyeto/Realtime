@@ -1,11 +1,13 @@
-// Lab1WB.cpp : Defines the entry point for the console application.
-//
+
 
 #include "stdafx.h"
 #include "LogManager.h"
 
+/*! The Main Class*/
+
 int main()
 {
+	/*! The Test Running Stuff*/
 	ssuge::LogManager LM("test_log.txt");
 	LM.log("message A");
 	LM.log("message B", LL_DEBUG);

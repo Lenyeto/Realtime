@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: b5485b3a2a1d4f449a7bd81ed9c3da0f
-timeCreated: 1472574227
-licenseType: Pro
+timeCreated: 1472940206
+licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
@@ -57,14 +57,14 @@ ModelImporter:
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleCurves: 1
+    resampleRotations: 1
     optimizeGameObjects: 0
     motionNodeName: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -131,9 +131,9 @@ ModelImporter:
       - path: FigureArmature/Root/Spine/UArm_R
         weight: 1
       - path: FigureArmature/Root/Spine/UArm_R/FArm_R
-        weight: 1
+        weight: 0
       - path: FigureMesh
-        weight: 1
+        weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
@@ -277,7 +277,7 @@ ModelImporter:
     addColliders: 0
     importBlendShapes: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
@@ -294,8 +294,215 @@ ModelImporter:
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    human: []
-    skeleton: []
+    human:
+    - boneName: FigureArmature
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hip_L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hip_R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LLeg_L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LLeg_R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Foot_L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Foot_R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skull
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UArm_L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UArm_R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FArm_R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FArm_L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: figure02(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: FigureArmature
+      position: {x: 0, y: 4.8878126, z: -1.3437824}
+      rotation: {x: -0.5, y: -0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Root
+      position: {x: 3.548188, y: 0, z: 0}
+      rotation: {x: 0.0012846765, y: 0.7071059, z: -0.7071054, w: 0.0012846774}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+      transformModified: 1
+    - name: Hip_L
+      position: {x: 2.2021656, y: -0.6203409, z: -0.00000037006347}
+      rotation: {x: -0.60040694, y: 0.6025927, z: 0.37107214, w: 0.37242323}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+      transformModified: 1
+    - name: ULeg_L
+      position: {x: -0.8557636, y: 0.00000015360662, z: -0.000000020556456}
+      rotation: {x: 0.8522594, y: 0.0000009900591, z: -0.5231194, w: 0.0000019515558}
+      scale: {x: 0.99999976, y: 1, z: 1}
+      transformModified: 1
+    - name: LLeg_L
+      position: {x: -2.4953105, y: -0.000000010508387, z: 0.000000001842182}
+      rotation: {x: 0.000001867179, y: 0.00009703357, z: 2.1899685e-10, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+      transformModified: 1
+    - name: Foot_L
+      position: {x: -2.418771, y: 0.00000029401502, z: -0.00000000912911}
+      rotation: {x: -0.5346677, y: 0.4593491, z: -0.46274203, w: 0.537586}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Hip_R
+      position: {x: 2.2021656, y: -0.6203409, z: -0.00000037006347}
+      rotation: {x: -0.5988816, y: 0.60106146, z: -0.37352931, w: -0.3748891}
+      scale: {x: 0.9999998, y: 1, z: 0.9999999}
+      transformModified: 1
+    - name: ULeg_R
+      position: {x: -0.8352534, y: 0.00000021716102, z: 0.000000001160927}
+      rotation: {x: 0.00000002867888, y: -0.51622176, z: 0.00000019905488, w: 0.856455}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LLeg_R
+      position: {x: -2.5117388, y: 0.00000017287341, z: 4.6467e-10}
+      rotation: {x: -0.0000000011505171, y: -0.015238598, z: -3.1798275e-15, w: 0.9998839}
+      scale: {x: 1, y: 0.99999994, z: 1}
+      transformModified: 1
+    - name: Foot_R
+      position: {x: -2.4034133, y: 0.00000035250355, z: -0.00000002813272}
+      rotation: {x: 0.5305255, y: 0.4674855, z: 0.46748558, w: 0.53052557}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+      transformModified: 1
+    - name: Spine
+      position: {x: 2.2021656, y: -0.6203409, z: -0.00000037006347}
+      rotation: {x: -0.50237465, y: -0.49761397, z: 0.4976138, w: 0.50237495}
+      scale: {x: 0.9999998, y: 1, z: 0.9999999}
+      transformModified: 1
+    - name: Neck
+      position: {x: -2.0713093, y: 0.00000015637951, z: 0.000000007450581}
+      rotation: {x: 0.7071038, y: -0.0020818287, z: 0.0020817763, w: 0.70710367}
+      scale: {x: 0.99999994, y: 1, z: 1}
+      transformModified: 1
+    - name: Skull
+      position: {x: -1.6379949, y: 0.00000008785338, z: -3.3e-14}
+      rotation: {x: -0.23405726, y: -0.6672459, z: 0.66724604, w: 0.23405722}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: UArm_L
+      position: {x: -2.346855, y: -1.3777528, z: -0.0016223625}
+      rotation: {x: 0.49838844, y: 0.50454235, z: -0.50160646, w: -0.49541596}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: FArm_L
+      position: {x: -1.8982372, y: 0.00000025849445, z: -0.00000002022557}
+      rotation: {x: 0.000010148158, y: -0.00000008942166, z: -0.000000040412672, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: UArm_R
+      position: {x: -2.3774712, y: 1.331828, z: -0.0018028447}
+      rotation: {x: -0.49855894, y: 0.50436383, z: 0.50143677, w: -0.4955979}
+      scale: {x: 0.99999976, y: 0.9999998, z: 0.99999994}
+      transformModified: 1
+    - name: FArm_R
+      position: {x: -1.8686242, y: 0.00000020414244, z: -0.00000018760238}
+      rotation: {x: -0.000000031792453, y: 0.01978761, z: -4.7546583e-10, w: 0.9998042}
+      scale: {x: 1, y: 0.99999994, z: 1}
+      transformModified: 1
+    - name: FigureMesh
+      position: {x: 1e-15, y: 0.12988088, z: -0.7938511}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 0.26882493, y: 0.23729515, z: 0.26882493}
+      transformModified: 1
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -306,7 +513,7 @@ ModelImporter:
     rootMotionBoneName: 
     hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 3
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
