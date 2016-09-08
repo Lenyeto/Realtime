@@ -26,6 +26,9 @@ public class PlayerScript : MonoBehaviour {
     public GameObject rightBarrelBase;
     public GameObject rightBarrel;
 
+    public ParticleSystem leftParticles;
+    public ParticleSystem rightParticles;
+
     public bool isMultiplayer;
 
 	// Use this for initialization
@@ -128,6 +131,8 @@ public class PlayerScript : MonoBehaviour {
                     float hmvmt = Input.GetAxis("Horizontal");
                     float vmvmt = Input.GetAxis("Vertical");
 
+                    bool isJumping = Input.GetKey(KeyCode.Space);
+
                     if (transform.position.z < 13 && hmvmt > 0)
                     {
                         transform.Translate(new Vector3(0, 0, (hmvmt / 50) * moveSpeed));
@@ -151,6 +156,32 @@ public class PlayerScript : MonoBehaviour {
                         transform.Translate(new Vector3(-(vmvmt / 50) * moveSpeed, 0, 0));
 
                     }
+
+                    if (isJumping)
+                    {
+                        if (!leftParticles.isPlaying)
+                        {
+                            leftParticles.Play();
+                            rightParticles.Play();
+                        }
+                        if (transform.position.y > 20)
+                        {
+                            
+                        } else
+                        {
+                            anim.SetInteger("currentState", 0);
+                            transform.Translate(new Vector3(0, 0.1f, 0));
+                        }
+                    } else if (!isJumping && transform.position.y > 10)
+                    {
+                        transform.Translate(new Vector3(0, -0.1f, 0));
+                        if (leftParticles.isPlaying)
+                        {
+                            leftParticles.Stop();
+                            rightParticles.Stop();
+                        }
+                    }
+
                 }
             }
         } else

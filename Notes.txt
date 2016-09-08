@@ -1,8 +1,27 @@
 8/23/2016
-	TIOBE is the survey for planned language use on new projects by developers
-	
-C++
-	Making namespaces
-		namespace foo{
-			CONTENTS IN HERE LIKE CLASSES
+		TIOBE is the survey for planned language use on new projects by developers
+		
+	C++
+		Making namespaces
+			namespace foo{
+				CONTENTS IN HERE LIKE CLASSES
+			}
+
+9/8/2016
+	stuff
+		#include <Application.h>
+		ssuge::Application::Application(...):mWindow(NULL),mState(AppState::UNINIT)
+		{
+		
+		}
+		
+		SDL_Event e;
+		if (SDL_Event_Poll(&e)) {
+			handleEvent(&e);
+		}
+		
+		main
+		{
+			ssuge::App(..);
+			A.run();
 		}
