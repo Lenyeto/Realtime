@@ -8,10 +8,17 @@ public class MapController : MonoBehaviour {
 
     public GameObject groundPiece;
     public GameObject TNT;
+    public GameObject coin;
     public int maxAhead;
     
     private GameObject[] tiles = new GameObject[10];
     private GameObject[] tnts = new GameObject[3];
+
+    private GameObject[] coinStream = new GameObject[6];
+    private GameObject lastCoin;
+
+    private GameObject lastTNT;
+    
 
     // Use this for initialization
 	void Start () {
@@ -31,6 +38,7 @@ public class MapController : MonoBehaviour {
         tnts[0] = (GameObject) (Instantiate(TNT, new Vector3(this.transform.position.x - Random.value * 10 + 20, 0, 5), new Quaternion()));
         tnts[1] = (GameObject)(Instantiate(TNT, new Vector3(this.transform.position.x - Random.value * 10 + 20, 0, 5), new Quaternion()));
         tnts[2] = (GameObject)(Instantiate(TNT, new Vector3(this.transform.position.x - Random.value * 10 + 20, 0, 5), new Quaternion()));
+        
     }
 	
 	// Update is called once per frame
@@ -39,7 +47,19 @@ public class MapController : MonoBehaviour {
         {
             addPiece();
         }
-        foreach(GameObject g in tiles)
+
+        if (lastCoin != null)
+        {
+            if (this.transform.position.x <= lastCoin.transform.position.x)
+            {
+                addCoin();
+            }
+        } else
+        {
+            addCoin();
+        }
+        
+        foreach (GameObject g in tiles)
         {
             if (g.transform.position.y < 0)
             {
@@ -64,7 +84,6 @@ public class MapController : MonoBehaviour {
 
     void addPiece()
     {
-        
         for (int i = 0; i < 10; i++)
         {
             if (i != 9)
@@ -83,6 +102,45 @@ public class MapController : MonoBehaviour {
 
     void addTNT()
     {
+        GameObject obj = Instantiate(TNT);
 
+        GameObject.Destroy(obj, 10);
+    }
+
+    void addCoin()
+    {
+        coinStream = new GameObject[6];
+
+        //This is for the style of coin placement
+        //1 is Straight
+        //2 is curve up
+        int placement = Random.Range(1, 3);
+
+
+        for (int i = 0; i < 6; i++)
+        {
+            GameObject obj = Instantiate(coin);
+            GameObject.Destroy(obj, 10);
+
+            if (i == 0)
+            {
+                obj.transform.position = tiles[9].transform.position;
+                obj.transform.Translate(0, Random.Range(-8, 8), 0);
+                obj.transform.Translate(new Vector3(0, 0, -5));
+            } else
+            {
+                if (placement == 1)
+                {
+                    obj.transform.position = coinStream[i - 1].transform.position + new Vector3(-10, 0, 0);
+                } else if (placement == 2)
+                {
+                    obj.transform.position = coinStream[i - 1].transform.position + new Vector3(-10, 10*Mathf.Sin(i), 0);
+                }
+            }
+
+            coinStream[i] = obj;
+        }
+
+        lastCoin = coinStream[5];
     }
 }
