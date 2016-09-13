@@ -9,6 +9,8 @@
 
 #include <stdio.h>
 #include <tchar.h>
+//MAYBE BRACKETS IDK
+#include "SDL.h"
 
 
 
