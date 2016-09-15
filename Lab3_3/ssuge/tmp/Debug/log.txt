@@ -1,0 +1,3 @@
+[09/14/16@15:46:21] Creating window
+[09/14/16@15:46:21] Window created
+[09/14/16@15:46:28] Shutting down application

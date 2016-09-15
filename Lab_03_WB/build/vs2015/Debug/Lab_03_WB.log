@@ -1,5 +1,2 @@
-﻿  main.cpp
-  LogManager.cpp
-  Generating Code...
-SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol _SDL_main referenced in function _main_utf8
-C:\Users\William\Documents\GitHub\New folder\Realtime\Lab_03_WB\build\vs2015\..\..\bin\Debug\Lab_03_WB.exe : fatal error LNK1120: 1 unresolved externals
+﻿SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol _SDL_main referenced in function _main_utf8
+C:\Users\William\Desktop\New folder (3)\Realtime\Lab_03_WB\build\vs2015\..\..\bin\Debug\Lab_03_WB.exe : fatal error LNK1120: 1 unresolved externals

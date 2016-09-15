@@ -1,0 +1,9 @@
+﻿  Application.cpp
+  LogManager.cpp
+  main.cpp
+  stdafx.cpp
+LINK : warning C4727: PCH named c:\users\william\desktop\new folder (3)\realtime\lab3_3\ssuge\build\vs2015\ssuge.pch with same timestamp found in c:\users\william\desktop\new folder (3)\realtime\lab3_3\ssuge\build\vs2015\release\logmanager.obj and c:\users\william\desktop\new folder (3)\realtime\lab3_3\ssuge\build\vs2015\release\application.obj.  Using first PCH.
+LINK : warning C4727: PCH named c:\users\william\desktop\new folder (3)\realtime\lab3_3\ssuge\build\vs2015\ssuge.pch with same timestamp found in c:\users\william\desktop\new folder (3)\realtime\lab3_3\ssuge\build\vs2015\release\main.obj and c:\users\william\desktop\new folder (3)\realtime\lab3_3\ssuge\build\vs2015\release\application.obj.  Using first PCH.
+LINK : warning C4727: PCH named c:\users\william\desktop\new folder (3)\realtime\lab3_3\ssuge\build\vs2015\ssuge.pch with same timestamp found in c:\users\william\desktop\new folder (3)\realtime\lab3_3\ssuge\build\vs2015\release\stdafx.obj and c:\users\william\desktop\new folder (3)\realtime\lab3_3\ssuge\build\vs2015\release\application.obj.  Using first PCH.
+SDL2main.lib(SDL_windows_main.obj) : error LNK2001: unresolved external symbol _SDL_main
+C:\Users\William\Desktop\New folder (3)\Realtime\Lab3_3\ssuge\build\vs2015\..\..\bin\Release\SSUGE.exe : fatal error LNK1120: 1 unresolved externals

@@ -1,0 +1,14 @@
+﻿  Application.cpp
+  LogManager.cpp
+  main.cpp
+  stdafx.cpp
+LINK : warning C4727: PCH named c:\users\jalen\google drive\etgg 3801 realtime\lab 2\ssuge\build\vs2015\ssuge.pch with same timestamp found in c:\users\jalen\google drive\etgg 3801 realtime\lab 2\ssuge\build\vs2015\x64\release\logmanager.obj and c:\users\jalen\google drive\etgg 3801 realtime\lab 2\ssuge\build\vs2015\x64\release\application.obj.  Using first PCH.
+LINK : warning C4727: PCH named c:\users\jalen\google drive\etgg 3801 realtime\lab 2\ssuge\build\vs2015\ssuge.pch with same timestamp found in c:\users\jalen\google drive\etgg 3801 realtime\lab 2\ssuge\build\vs2015\x64\release\main.obj and c:\users\jalen\google drive\etgg 3801 realtime\lab 2\ssuge\build\vs2015\x64\release\application.obj.  Using first PCH.
+LINK : warning C4727: PCH named c:\users\jalen\google drive\etgg 3801 realtime\lab 2\ssuge\build\vs2015\ssuge.pch with same timestamp found in c:\users\jalen\google drive\etgg 3801 realtime\lab 2\ssuge\build\vs2015\x64\release\stdafx.obj and c:\users\jalen\google drive\etgg 3801 realtime\lab 2\ssuge\build\vs2015\x64\release\application.obj.  Using first PCH.
+  Generating code
+  152 of 152 functions (100.0%) were compiled, the rest were copied from previous compilation.
+    151 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  SSUGE.vcxproj -> C:\Users\Jalen\Google Drive\ETGG 3801 RealTime\Lab 2\SSUGE\build\vs2015\..\..\bin\Release\SSUGE.exe
+  SSUGE.vcxproj -> C:\Users\Jalen\Google Drive\ETGG 3801 RealTime\Lab 2\SSUGE\build\vs2015\..\..\bin\Release\SSUGE.pdb (Full PDB)

@@ -1,0 +1,2 @@
+﻿SDL2main.lib(SDL_windows_main.obj) : error LNK2001: unresolved external symbol _SDL_main
+C:\Users\William\Desktop\New folder (3)\Realtime\Lab_03_WB\build\vs2015\..\..\bin\Release\Lab_03_WB.exe : fatal error LNK1120: 1 unresolved externals
