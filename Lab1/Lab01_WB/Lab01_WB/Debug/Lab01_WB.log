@@ -1,11 +1,4 @@
-﻿  LogManager.cpp
+﻿  Main.cpp
+  LogManager.cpp
   Generating Code...
-  Compiling...
-  Main.cpp
-  Generating Code...
-Main.obj : error LNK2005: "public: __thiscall ssuge::LogManager::LogManager(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (??0LogManager@ssuge@@QAE@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) already defined in LogManager.obj
-Main.obj : error LNK2005: "public: __thiscall ssuge::LogManager::~LogManager(void)" (??1LogManager@ssuge@@QAE@XZ) already defined in LogManager.obj
-Main.obj : error LNK2005: "char * __cdecl ssuge::getTimeString(struct tm const *)" (?getTimeString@ssuge@@YAPADPBUtm@@@Z) already defined in LogManager.obj
-Main.obj : error LNK2005: "public: void __thiscall ssuge::LogManager::log(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,unsigned int)" (?log@LogManager@ssuge@@QAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@I@Z) already defined in LogManager.obj
-Main.obj : error LNK2005: "public: void __thiscall ssuge::LogManager::setLogMask(unsigned int)" (?setLogMask@LogManager@ssuge@@QAEXI@Z) already defined in LogManager.obj
-C:\Users\William\Documents\GitHub\New folder\Realtime\Lab1\Lab01_WB\Debug\Lab01_WB.exe : fatal error LNK1169: one or more multiply defined symbols found
+LINK : fatal error LNK1104: cannot open file 'SDL2main.lib'

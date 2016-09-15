@@ -11,6 +11,7 @@ namespace ssuge {
 	LogManager::~LogManager() {
 		mFile.close();
 	}
+	
 
 	void LogManager::log(std::string msg, unsigned int lvl) {
 		if (lvl && mLogLevel) {
