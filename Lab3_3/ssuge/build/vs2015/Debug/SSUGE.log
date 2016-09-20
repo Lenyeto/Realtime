@@ -1,4 +1,2 @@
-﻿  Application.cpp
-  main.cpp
-  SSUGE.vcxproj -> C:\Users\Jalen\Google Drive\ETGG 3801 RealTime\Lab 2\SSUGE\build\vs2015\..\..\bin\Debug\SSUGE.exe
-  SSUGE.vcxproj -> C:\Users\Jalen\Google Drive\ETGG 3801 RealTime\Lab 2\SSUGE\build\vs2015\..\..\bin\Debug\SSUGE.pdb (Partial PDB)
+﻿SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol _SDL_main referenced in function _main_utf8
+z:\profiledata\Desktop\New folder (2)\Realtime\Lab3_3\ssuge\build\vs2015\..\..\bin\Debug\SSUGE.exe : fatal error LNK1120: 1 unresolved externals
